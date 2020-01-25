@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[testCreateCustome]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24122" started-at="2020-01-25T04:52:27Z" finished-at="2020-01-25T04:52:51Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="24122" started-at="2020-01-25T04:52:27Z" finished-at="2020-01-25T04:52:51Z">
+      <class name="com.actitime.test.CustomerModule">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.actitime.test.CustomerModule@295bf2a]" name="openBrowser" is-config="true" duration-ms="4783" started-at="2020-01-25T04:52:27Z" finished-at="2020-01-25T04:52:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.actitime.test.CustomerModule@295bf2a]" name="loginApp" is-config="true" duration-ms="9651" started-at="2020-01-25T04:52:32Z" finished-at="2020-01-25T04:52:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method status="FAIL" signature="testCreateCustome()[pri:0, instance:com.actitime.test.CustomerModule@295bf2a]" name="testCreateCustome" duration-ms="2251" started-at="2020-01-25T04:52:42Z" finished-at="2020-01-25T04:52:44Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.actitime.generics.FileLib.getExcelValue(FileLib.java:50)
+at com.actitime.test.CustomerModule.testCreateCustome(CustomerModule.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[testCreateCustome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCreateCustome -->
+        <test-method status="PASS" signature="logoutApp()[pri:0, instance:com.actitime.test.CustomerModule@295bf2a]" name="logoutApp" is-config="true" duration-ms="5095" started-at="2020-01-25T04:52:44Z" finished-at="2020-01-25T04:52:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.actitime.test.CustomerModule@295bf2a]" name="closeBrowser" is-config="true" duration-ms="2255" started-at="2020-01-25T04:52:49Z" finished-at="2020-01-25T04:52:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.actitime.test.CustomerModule -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
